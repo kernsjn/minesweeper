@@ -69,11 +69,11 @@ const Mines = () => {
   const message = () => {
     if (state === 'lost') {
       setState({
-        status: 'Oh no, you lose!! Try again!'
+        status: 'You lose!! Try again!'
       })
     } else if (state === 'won') {
       setState({
-        status: 'Yay! You won!'
+        status: 'You won! Play Again?'
       })
     }
   }
